@@ -5,20 +5,11 @@ const rs = require('readline-sync');
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
-}
+} 
 
-console.log(`${chalk.white(`
-1 Push Starpass
-2 Push Tropi
-3 Push Mahkota
-Choose to use the available number`)} 
-`);
-const round = rs.question(`[+] Masukin Angka Disini Dan Dapatkan Loli 😘😍  : `);
-    console.log('');
-    
     const GoStumble = (auth) => new Promise((resolve, reject) => {
  
-fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/'+round,{
+fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3',{
     method: 'GET',
     headers: {
       'authorization': auth
