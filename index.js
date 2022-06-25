@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+9const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
@@ -61,10 +61,10 @@ Script Made By : ${chalk.bold('Babang Tamvan Rexxy')} - Helper : @FiqzGantengBan
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('hh:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)} |${chalk.blue(`Country : ${country}`)}`))
-      await sleep(3000);
+      await sleep(1250);
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('hh:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)} |${chalk.blue(`Country : ${country}`)}`))
-      await sleep(3000);
+      await sleep(1250);
 
     } else if (result == 'BANNED') {
         console.log(chalk.bgRed(`Akunlu Keban Titit Makanya Ga Ush Ngescript 🤬🤬🤬🤬`));
