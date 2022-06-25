@@ -67,7 +67,7 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('hh:mm:ss')} ] ${chalk.white(`U
       await sleep(3000);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Akunlu Keban Titit Makanya Ga Ush Ngescript 🤬🤬🤬🤬`));
+        console.log(chalk.bgRed(`Akunlu Keban Titit Makanya Ga Ush Ngescript 🤬🤬🤬🤬`));
      break;
     }
   }
