@@ -61,10 +61,7 @@ Script Made By : ${chalk.bold('Babang Tamvan Rexxy')} - Helper : @FiqzGantengBan
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('hh:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)} |${chalk.blue(`Country : ${country}`)}`))
-      await sleep(1250);
-
-console.log(chalk.bgBlack(`\r[ ${moment().format('hh:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)} |${chalk.blue(`Country : ${country}`)}`))
-      await sleep(1250);
+      await sleep(5000);
 
     } else if (result == 'BANNED') {
         console.log(chalk.bgRed(`Akunlu Keban Titit Makanya Ga Ush Ngescript 🤬🤬🤬🤬`));
